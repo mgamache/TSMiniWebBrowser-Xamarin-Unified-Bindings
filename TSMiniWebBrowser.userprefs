@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TSMiniWebBrowser/ApiDefinition.cs">
+    <Files>
+      <File FileName="TSMiniWebBrowser/ApiDefinition.cs" Line="3" Column="3" />
+      <File FileName="../Modernfold/TSMiniWebBrowser/binding/Properties/AssemblyInfo.cs" Line="44" Column="44" />
+      <File FileName="../Modernfold/TSMiniWebBrowser/binding/ApiDefinition.cs" Line="3" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
