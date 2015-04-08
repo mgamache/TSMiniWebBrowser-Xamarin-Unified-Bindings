@@ -34,56 +34,6 @@ using CoreFoundation;
 namespace TSMiniWebBrowser {
 	[Register("TSMiniWebBrowser", true)]
 	public unsafe partial class MiniWebBrowser : global::UIKit.UIViewController {
-		[CompilerGenerated]
-		const string selBarStyle = "barStyle";
-		[CompilerGenerated]
-		const string selBarTintColor = "barTintColor";
-		[CompilerGenerated]
-		const string selCurrentURL = "currentURL";
-		[CompilerGenerated]
-		const string selDelegate = "delegate";
-		[CompilerGenerated]
-		const string selDomainLockList = "domainLockList";
-		[CompilerGenerated]
-		const string selInitWithUrl_ = "initWithUrl:";
-		[CompilerGenerated]
-		const string selLoadURL_ = "loadURL:";
-		[CompilerGenerated]
-		const string selModalDismissButtonTitle = "modalDismissButtonTitle";
-		[CompilerGenerated]
-		const string selMode = "mode";
-		[CompilerGenerated]
-		const string selSetBarStyle_ = "setBarStyle:";
-		[CompilerGenerated]
-		const string selSetBarTintColor_ = "setBarTintColor:";
-		[CompilerGenerated]
-		const string selSetCurrentURL_ = "setCurrentURL:";
-		[CompilerGenerated]
-		const string selSetDelegate_ = "setDelegate:";
-		[CompilerGenerated]
-		const string selSetDomainLockList_ = "setDomainLockList:";
-		[CompilerGenerated]
-		const string selSetFixedTitleBarText_ = "setFixedTitleBarText:";
-		[CompilerGenerated]
-		const string selSetModalDismissButtonTitle_ = "setModalDismissButtonTitle:";
-		[CompilerGenerated]
-		const string selSetMode_ = "setMode:";
-		[CompilerGenerated]
-		const string selSetShowActionButton_ = "setShowActionButton:";
-		[CompilerGenerated]
-		const string selSetShowPageTitleOnTitleBar_ = "setShowPageTitleOnTitleBar:";
-		[CompilerGenerated]
-		const string selSetShowReloadButton_ = "setShowReloadButton:";
-		[CompilerGenerated]
-		const string selSetShowURLStringOnActionSheetTitle_ = "setShowURLStringOnActionSheetTitle:";
-		[CompilerGenerated]
-		const string selShowActionButton = "showActionButton";
-		[CompilerGenerated]
-		const string selShowPageTitleOnTitleBar = "showPageTitleOnTitleBar";
-		[CompilerGenerated]
-		const string selShowReloadButton = "showReloadButton";
-		[CompilerGenerated]
-		const string selShowURLStringOnActionSheetTitle = "showURLStringOnActionSheetTitle";
 		
 		[CompilerGenerated]
 		static readonly IntPtr class_ptr = Class.GetHandle ("TSMiniWebBrowser");
@@ -119,14 +69,14 @@ namespace TSMiniWebBrowser {
 
 		[CompilerGenerated]
 		[EditorBrowsable (EditorBrowsableState.Advanced)]
-		public MiniWebBrowser (NSObjectFlag t) : base (t)
+		protected MiniWebBrowser (NSObjectFlag t) : base (t)
 		{
 			IsDirectBinding = GetType ().Assembly == global::ApiDefinition.Messaging.this_assembly;
 		}
 
 		[CompilerGenerated]
 		[EditorBrowsable (EditorBrowsableState.Advanced)]
-		public MiniWebBrowser (IntPtr handle) : base (handle)
+		protected internal MiniWebBrowser (IntPtr handle) : base (handle)
 		{
 			IsDirectBinding = GetType ().Assembly == global::ApiDefinition.Messaging.this_assembly;
 		}
@@ -276,7 +226,7 @@ namespace TSMiniWebBrowser {
 		[CompilerGenerated]
 		public MiniWebBrowserDelegate Delegate {
 			get {
-				return WeakDelegate as MiniWebBrowserDelegate;
+				return WeakDelegate as /**/MiniWebBrowserDelegate;
 			}
 			set {
 				WeakDelegate = value;

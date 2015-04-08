@@ -81,14 +81,14 @@ namespace TSMiniWebBrowser {
 
 		[CompilerGenerated]
 		[EditorBrowsable (EditorBrowsableState.Advanced)]
-		public MiniWebBrowserDelegate (NSObjectFlag t) : base (t)
+		protected MiniWebBrowserDelegate (NSObjectFlag t) : base (t)
 		{
 			IsDirectBinding = GetType ().Assembly == global::ApiDefinition.Messaging.this_assembly;
 		}
 
 		[CompilerGenerated]
 		[EditorBrowsable (EditorBrowsableState.Advanced)]
-		public MiniWebBrowserDelegate (IntPtr handle) : base (handle)
+		protected internal MiniWebBrowserDelegate (IntPtr handle) : base (handle)
 		{
 			IsDirectBinding = GetType ().Assembly == global::ApiDefinition.Messaging.this_assembly;
 		}

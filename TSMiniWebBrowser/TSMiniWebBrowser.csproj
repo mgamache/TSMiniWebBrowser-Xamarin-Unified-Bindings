@@ -46,19 +46,19 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libTSMiniWebBrowser.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="libTSMiniWebBrowser.linkwith.cs">
-      <DependentUpon>libTSMiniWebBrowser.a</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\back_icon.png" />
     <BundleResource Include="Resources\back_icon%402x.png" />
     <BundleResource Include="Resources\forward_icon.png" />
     <BundleResource Include="Resources\forward_icon%402x.png" />
     <BundleResource Include="Resources\reload_icon.png" />
     <BundleResource Include="Resources\reload_icon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingNativeLibrary Include="libTSMiniWebBrowser.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="libTSMiniWebBrowser.linkwith.cs">
+      <DependentUpon>libTSMiniWebBrowser.a</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
